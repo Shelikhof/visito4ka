@@ -2,7 +2,7 @@
   <div class="w-dvw h-dvh bg-black flex items-center justify-center cursor-pointer">
     <div class="w-[500px] h-4">
       <div class="w-full h-4 bg-white line-animation"></div>
-      <p class="font-orelega text-white text-2xl text-center mt-4 text-animation opacity-0">Нажмите ПКМ</p>
+      <p class="font-orelega text-white text-2xl text-center mt-4 text-animation opacity-0">Нажмите ЛКМ</p>
     </div>
   </div>
 </template>
