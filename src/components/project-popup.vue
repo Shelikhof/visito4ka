@@ -27,7 +27,7 @@ defineProps<{
       <div class="grid gap-5">
         <div class="grid gap-4 sm:grid-cols-2 sm:items-center">
           <h4 class="font-orelega text-2xl text-white leading-5 pr-8 sm:text-4xl sm:pr-0">{{ title }}</h4>
-          <img :src="image" alt="preview" class="w-full object-cover border border-black rounded-lg overflow-hidden aspect-video" />
+          <img :src="image" alt="preview" class="object-cover border border-black rounded-lg overflow-hidden aspect-video" />
         </div>
         <div>
           <p class="font-orelega">
@@ -80,5 +80,10 @@ defineProps<{
 
 a {
   text-decoration: underline;
+  word-wrap: break-word;
+  word-break: break-all;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 </style>
